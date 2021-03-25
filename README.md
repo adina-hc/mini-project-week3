@@ -1,6 +1,6 @@
 # Rock, Paper, Scissors
 
-This miniproject consists in the game rock, paper, scissors.
+This mini project consists in the game rock, paper, scissors.
 
 - Upon website load, the user is prompt to enter an option of 'R', 'P' or 'S'.
 
