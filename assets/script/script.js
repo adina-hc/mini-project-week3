@@ -1,5 +1,4 @@
-// Rock, Paper, Scissors
-/* variable declaration */
+// Variables declaration
 var rPs = ['R','P','S'];
 var uInput = "";
 var playAgain = true;
@@ -16,17 +15,17 @@ var playGame = function() {
     }
     //Pick a random computer result
     var randomPick = Math.floor(Math.random() * rPs.length);
-    var computerPick = computerPick[randomPick];
-    window.alert("The computer chose: " + randomPick);
+    var computerPick = rPs[randomPick];
+    window.alert("The computer chose: " + computerPick);
     
     // Comparison user and computer retults and calculates score
-    if (uInput === randomPick) {
+    if (uInput === computerPick) {
         alert("You tied!");
         ties++;
     } else if (
-        (uInput === 'R' && randomPick === 'S') ||
-        (uInput === 'P' && randomPick === 'R') ||
-        (uInput === 'S' && randomPick === 'P')
+        (uInput === 'R' && computerpick === 'S') ||
+        (uInput === 'P' && computerPick === 'R') ||
+        (uInput === 'S' && computerPick === 'P')
     ) {
         window.alert("You won!");
         wins++;   
